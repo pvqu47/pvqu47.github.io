@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Python, CTF, Math
-percentage: 10, 10, 10
+aspects: Python, CTF, Math, Github
+percentage: 20, 10, 30, 10
