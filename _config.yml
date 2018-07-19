@@ -5,7 +5,7 @@
 #
 title: pvqu47
 email: pvqu47@gmail.com
-description: My blog.
+description: Q's blog.
 url: https://pvqu47.github.io # the base hostname & protocol for your site
 keywords: ["Programming", "CTF", "Linh tinh"]
 
@@ -14,7 +14,7 @@ keywords: ["Programming", "CTF", "Linh tinh"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Vietnam/Hanoi
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -36,14 +36,14 @@ owner:
   name: pvqu47
   avatar: avatar.jpg
   job: "Student in PSA"
-  bio: "Yêu cuộc sống"
+  bio: "What you get by achieving your goals, is not as important as, what you become by achieving your goals."
   email: pvqu47@gmail.com
   disqus-shortname: pvq
   twitter: quatphu97hhbg #username
-  facebook: #username
+  facebook: pvqu47
   google:
     plus: #username
-    analytics: UA-62251910-2
+    analytics: A
     verify:
     ad-client:
     ad-slot:
