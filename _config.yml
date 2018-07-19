@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Q's blog.
+title: _Q's blog_
 email: pvqu47@gmail.com
 description: _pvqu47_
 url: https://pvqu47.github.io # the base hostname & protocol for your site
-keywords: ["Programming", "CTF", "Linh tinh"]
+keywords: ["Programming", "CTF", "Me"]
 
 #
 ###################################
@@ -33,7 +33,7 @@ kramdown:
 ####################################
 #
 owner:
-  name: pvqu47
+  name: _pvqu47_
   avatar: avatar.jpg
   job: "Student in PSA"
   bio: "What you get by achieving your goals, is not as important as, what you become by achieving your goals."
