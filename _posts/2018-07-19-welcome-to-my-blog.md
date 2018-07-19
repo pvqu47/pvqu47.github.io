@@ -5,7 +5,7 @@ date:   2015-08-18 15:07:19
 categories: [Me]
 comments: false
 ---
-Viết một vài thứ linh tinh với mục đích trước tiên là lưu lại những gì mình đã học được và sau đó là chia sẻ nhưng điều đó với mọi người :smirk:
+Viết một vài thứ linh tinh với mục đích trước tiên là lưu lại những gì mình đã học được và sau đó là chia sẻ nhưng điều đó với mọi người `:smirk:`
 <!--more-->
 
 Jekyll also offers powerful support for code snippets:
