@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: pvqu47
+title: Q's blog.
 email: pvqu47@gmail.com
-description: Q's blog.
+description: _pvqu47_
 url: https://pvqu47.github.io # the base hostname & protocol for your site
 keywords: ["Programming", "CTF", "Linh tinh"]
 
