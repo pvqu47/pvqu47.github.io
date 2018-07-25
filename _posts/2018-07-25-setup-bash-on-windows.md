@@ -3,7 +3,6 @@ layout: post
 title: "Cài đặt và cấu hình bash ubuntu 16.04 trên Windows 10"
 excerpt: "Cách để có được một command-line đẹp và tiện dụng ngay trên Windows"
 categories: [Linux]
-tags: [Linux, Bash, Hyper]
 comments: true
 image:
   feature: https://github.com/pvqu47/pvqu47.github.io/blob/master/img/Bash-Ubuntu-Win10.png
