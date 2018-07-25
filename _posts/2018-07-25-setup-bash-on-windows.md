@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Cài đặt và cấu hình bash ubuntu 16.04 trên Windows 10
+title: "Cài đặt và cấu hình bash ubuntu 16.04 trên Windows 10"
 excerpt: "Cách để có được một command-line đẹp và tiện dụng ngay trên Windows"
-<!-- modified: 2018-05-31 -->
 categories: [Linux]
 tags: [Linux, Bash, Hyper]
 comments: true
-pinned: true
 image:
   feature: https://github.com/pvqu47/pvqu47.github.io/blob/master/img/Bash-Ubuntu-Win10.png
+  credit: pvqu47
 ---
+
 Ngày trước để có được một môi trường command-line để làm việc mà vẫn dùng Windows mình thường cài song song Ubuntu với Windows hoặc sử dụng máy ảo trên VMware, song hai cách trên mình thấy khá là bất tiện 😞. Với cách thứ nhất bạn phải dành ra một phần ổ cứng để cài Ubuntu, gặp nhiều lỗi linh tinh khi chuyển đổi giữa hệ điều hành. Còn cách thứ hai thì tốn nhiều RAM và thời gian mở lâu 😴   
 
 # Cài đặt Ubuntu 16.04
