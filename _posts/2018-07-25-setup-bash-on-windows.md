@@ -23,4 +23,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 * Restart lại máy tính khi xong.
 
-### Cài đặt Ubuntu trên Microsoft Store
+### Cài đặt Ubuntu từ Microsoft Store
+Hỗ trợ từ phiên bản windows 16215 trở lên
+{: .notice}
+
