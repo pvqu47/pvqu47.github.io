@@ -5,7 +5,7 @@ excerpt: "Cách để có được một command-line đẹp và tiện dụng n
 categories: [Linux]
 comments: true
 image:
-  feature: https://github.com/pvqu47/pvqu47.github.io/blob/master/img/Bash-Ubuntu-Win10.png
+  feature: https://raw.githubusercontent.com/pvqu47/pvqu47.github.io/master/img/Bash-Ubuntu-Win10.png
   credit: pvqu47
 ---
 
