@@ -1,12 +1,24 @@
----
+<!-- ---
 layout: post
 title: "Cài đặt và cấu hình bash ubuntu 16.04 trên Windows 10"
 excerpt: "Cách để có được một command-line đẹp và tiện dụng ngay trên Windows"
 categories: [Linux]
 comments: true
 image:
-  feature: https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250<!-- https://github.com/pvqu47/pvqu47.github.io/blob/master/img/Bash-Ubuntu-Win10.png -->
+  feature: https://github.com/pvqu47/pvqu47.github.io/blob/master/img/Bash-Ubuntu-Win10.png
   credit: pvqu47
+---
+ -->
+---
+layout: post
+title: "Post with Large Feature Image and Text"
+excerpt: "Custom written post descriptions are the way to go... if you're not lazy."
+categories: [paragraph, feature photo]
+comments: true
+image:
+  feature: https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
+  credit: Greg Rakozy
+  creditlink: https://unsplash.com/photos/oMpAz-DN-9I
 ---
 
 Ngày trước để có được một môi trường command-line để làm việc mà vẫn dùng Windows mình thường cài song song Ubuntu với Windows hoặc sử dụng máy ảo trên VMware, song hai cách trên mình thấy khá là bất tiện 😞. Với cách thứ nhất bạn phải dành ra một phần ổ cứng để cài Ubuntu, gặp nhiều lỗi linh tinh khi chuyển đổi giữa hệ điều hành. Còn cách thứ hai thì tốn nhiều RAM và thời gian mở lâu 😴   
