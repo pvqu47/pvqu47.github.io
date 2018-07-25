@@ -8,7 +8,7 @@ tags: [Linux, Bash, Hyper]
 comments: true
 pinned: true
 image:
-  feature: Bash-Ubuntu-Win10.jpg
+  feature: https://github.com/pvqu47/pvqu47.github.io/blob/master/img/Bash-Ubuntu-Win10.png
 ---
 Ngày trước để có được một môi trường command-line để làm việc mà vẫn dùng Windows mình thường cài song song Ubuntu với Windows hoặc sử dụng máy ảo trên VMware, song hai cách trên mình thấy khá là bất tiện 😞. Với cách thứ nhất bạn phải dành ra một phần ổ cứng để cài Ubuntu, gặp nhiều lỗi linh tinh khi chuyển đổi giữa hệ điều hành. Còn cách thứ hai thì tốn nhiều RAM và thời gian mở lâu 😴   
 
@@ -17,13 +17,12 @@ Ngày trước để có được một môi trường command-line để làm v
 ## Cài đặt Windows Subsystem for Linux
 
 Bật tính năng "Windows Subsystem for Linux" và sau đó restart.
-
-1. Open PowerShell với Administrator và chạy lệnh:
+* Open PowerShell với Administrator và chạy lệnh:
 	{% highlight PowerShell %}
 		Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 	{% endhighlight %}
 
-2. Restart máy tính khi xong.
+* Restart máy tính khi xong.
 
 ## Cài đặt Ubuntu trên Microsoft Store
 
