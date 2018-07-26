@@ -61,7 +61,7 @@ curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/in
 {% endhighlight %}
 và chờ cho đến khi cài đặt xong
 
-## Cấu hình và Chạy Oh My Zsh
+## Cấu hình và chạy Oh My Zsh
 Bây giờ mỗi lần khi bạn cần sử dụng bash shell và zsh, bạn cần thực hiện lệnh `bash` (hoặc `ubuntu`) và sau đó là `zsh`. Để cấu hình cho `bash` mặc định là `zsh` chúng ta cần thêm vào đầu file `.bashrc` lệnh sau:
 {% highlight Command %}
 bash -c zsh
@@ -101,11 +101,9 @@ Danh sách Oh My Zsh theme bạn có thể tìm thấy ở [đây](https://githu
 
 ## Cài đặt zsh-syntax-highlighting plugin
 Mở terminal và download `zsh-syntax-highlighting` plugin bằng lệnh:
-{% highlight Command %}
-
+{% highlight %}
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 {% endhighlight %}
-
 Nếu biến `$ZSH_CUSTOM` tồn tại và chứa giá trị thì sử dụng nó luôn, nếu không sử dụng `~/.oh-my-zsh/custom`
 Để active plugin, mở file `.\zshrc` và tìm đến dòng sau:
 {% highlight Shell %}
