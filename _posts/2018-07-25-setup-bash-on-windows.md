@@ -3,6 +3,7 @@ layout: post
 title: "Cài đặt và cấu hình bash Ubuntu 16.04 trên Windows 10"
 excerpt: "Cách để có được một command-line đẹp và tiện dụng ngay trên Windows"
 categories: [Linux]
+tags: [Linux, bash, ubuntu 16.04, zsh, oh-my-zsh]
 comments: true
 image:
   feature: https://raw.githubusercontent.com/pvqu47/pvqu47.github.io/master/img/Bash-Ubuntu-Win10.png
