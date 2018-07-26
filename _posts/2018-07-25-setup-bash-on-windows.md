@@ -5,6 +5,7 @@ excerpt: "Cách để có được một command-line đẹp và tiện dụng n
 categories: [Linux]
 tags: [Linux, bash, ubuntu 16.04, zsh, oh-my-zsh]
 comments: true
+pinned: true
 image:
   feature: https://raw.githubusercontent.com/pvqu47/pvqu47.github.io/master/img/Bash-Ubuntu-Win10.png
   credit: pvqu47
