@@ -125,7 +125,7 @@ source ~/.zshrc
 Restart terminal và chúng ta có thể thấy kết quả 😍.
 
 ![Smithsonian Image]({{ site.url }}/img/Hyper-Terminal-With-Theme.png)
-{: .pull-right}
+{: .pull-left}
 
 Bạn có thể khai báo các alias trong file `~/.zshrc`.
 
