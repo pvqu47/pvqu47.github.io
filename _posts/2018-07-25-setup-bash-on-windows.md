@@ -30,13 +30,13 @@ Hiện tại, từ 8/5/2018 thì trên Microsoft Store có 3 phiên bản Ubuntu
 * [Ubuntu 16.04](https://www.microsoft.com/en-us/p/ubuntu-1604/9pjn388hp8c9)
 * [Ubuntu 18.04](https://www.microsoft.com/en-us/p/ubuntu-1804/9n9tngvndl3q) (Bản mới nhất)
 
-Theo mình thì nên dùng phiên bản đầu tiên bởi nó ổn định và ít lỗi hơn 😃. Sau khi cài đặt xong và restart, bạn có thể chạy lệnh bash hoặc ubuntu trên command prompt. Chi tiết cách cài đặt bạn có thể xem trên trang chủ [microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+Theo mình thì nên dùng phiên bản đầu tiên bởi nó ổn định và ít lỗi hơn 😃. Sau khi cài đặt xong và restart, bạn có thể chạy lệnh `bash` hoặc `ubuntu` trên command prompt. Chi tiết cách cài đặt bạn có thể xem trên trang chủ [Microsoft](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
 ## Cài đặt Hyper Terminal
-Lên trang chủ của Hyper và tải bản mới nhất cho Windows. Cài đặt nó.
+Lên trang chủ của [Hyper](https://hyper.is/) và tải bản mới nhất cho Windows. Cài đặt nó.
 
 ## Cài đặt cURL and Git
-Vào bash Ubuntu đã được cài đặt ở trên sử dụng các lênh sau:
+Vào bash Ubuntu đã được cài đặt ở trên thực hiện các lệnh sau:
 * Cài cURL
 {% highlight Command %}
 sudo apt-get install curl
@@ -47,5 +47,55 @@ sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get install git
 {% endhighlight %}
+
+## Cài đặt Zsh
+Để cài đặt Zsh thực hiện lệnh sau:
+{% highlight Command %}
+sudo apt-get install zsh
+{% endhighlight %}
+
+## Cài đặt Oh My Zsh
+Thực hiện lệnh 
+{% highlight Command %}
+curl -L https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash
+{% endhighlight %}
+và chờ cho đến khi cài đặt xong
+
+## Cấu hình và Chạy Oh My Zsh
+Bây giờ mỗi lần khi bạn cần sử dụng bash shell và zsh, bạn cần thực hiện lệnh `bash` (hoặc `ubuntu`) và sau đó là `zsh`. Để cấu hình cho `bash` mặc định là `zsh` chúng ta cần thêm vào đầu file `.bashrc` lệnh sau:
+{% highlight Command %}
+bash -c zsh
+{% endhighlight %}
+Sử dụng lệnh `sudo nano ~/.bashrc` để mở file `.bashrc`. 
+
+## Cấu hình và chạy Hyper Terminal
+Sau khi cài đặt Hyper Terminal mở file `%USERPROFILE%/.hyper.js` (ví dụ của mình là trong thư mục `C:\Users\quatp\.hyper.js`) và thay thế dòng 
+{% highlight Command %}
+shell: '',
+{% endhighlight %}
+bằng
+{% highlight Command %}
+shellArgs: ['--login'],
+{% endhighlight %}
+và 
+{% highlight Command %}
+shell: 'C:\\Windows\\System32\\cmd.exe',
+{% endhighlight %}
+bằng 
+{% highlight Command %}
+shellArgs: ['--login', '-i', '/c wsl'],
+{% endhighlight %}
+Bây giờ mỗi khi bạn mở Hyper termial, nó sẽ sử dụng `zsh` làm môi trường shell mặc định. Và chúng ta có Hyper termial trông như sau:
+![Smithsonian Image]({{ site.url }}/img/Hyper-Terminal-Without-Theme.png)
+{: .pull-right}
+Theme và các plugins cho Hyper Terminal bạn có thể tìm thấy ở [đây](https://github.com/bnb/awesome-hyper). Mình sử dụng [hyper-material-theme](https://github.com/equinusocio/hyper-material-theme) và có được:
+![Smithsonian Image]({{ site.url }}/img/Bash-Ubuntu-Win10.png)
+{: .pull-right}
+
+
+
+
+
+
 
 
