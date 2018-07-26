@@ -92,15 +92,48 @@ Bây giờ mỗi khi bạn mở Hyper termial, nó sẽ sử dụng `zsh` làm m
 {: .pull-left}
 
 Theme và các plugins cho Hyper Terminal bạn có thể tìm thấy ở [đây](https://github.com/bnb/awesome-hyper). Mình sử dụng [hyper-material-theme](https://github.com/equinusocio/hyper-material-theme) và có được:
+
 ![Smithsonian Image]({{ site.url }}/img/Bash-Ubuntu-Win10.png)
 {: .pull-right}
 
 ## Thay đổi Oh My Zsh Theme
-Danh sách Oh My Zsh theme bạn có thể tìm thấy ở [đây](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
+Danh sách Oh My Zsh theme bạn có thể tìm thấy ở [đây](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes). Mặc định oh-my-zsh sử dụng theme robbyrussell. Nếu bạn muốn thay đổi theme, mở `~/.zshrc` và thay đổi tên "robbyrussell" là theme bạn muốn sử dụng.
 
+## Cài đặt zsh-syntax-highlighting plugin
+Mở terminal và download `zsh-syntax-highlighting` plugin bằng lệnh:
+{% highlight Command %}
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+{% endhighlight %}
 
+Nếu biến `$ZSH_CUSTOM` tồn tại và chứa giá trị thì sử dụng nó luôn, nếu không sử dụng `~/.oh-my-zsh/custom`
+Để active plugin, mở file `.\zshrc` và tìm đến dòng sau:
+{% highlight Command %}
+```
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+```
+{% endhighlight %}
+Sau đó thay dòng `plugins=(git)` bằng:
+{% highlight Command %} 
+plugins=(git zsh-syntax-highlighting)
+{% endhighlight %}
+Save lại. Cuối cùng thực hiện lệnh:
+{% highlight Command %} 
+```
+source ~/.zshrc
+```
+{% endhighlight %}
+Restart terminal và chúng ta có thể thấy kết quả 😍.
 
+![Smithsonian Image]({{ site.url }}/img/Hyper-Terminal-With-Theme.png)
+{: .pull-right}
 
+Bạn có thể khai báo các alias trong file `~/.zshrc`.
 
 
 
