@@ -102,6 +102,7 @@ Danh sách Oh My Zsh theme bạn có thể tìm thấy ở [đây](https://githu
 ## Cài đặt zsh-syntax-highlighting plugin
 Mở terminal và download `zsh-syntax-highlighting` plugin bằng lệnh:
 {% highlight Command %}
+
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 {% endhighlight %}
 
