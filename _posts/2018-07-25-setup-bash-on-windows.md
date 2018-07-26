@@ -104,8 +104,7 @@ Mở terminal và download `zsh-syntax-highlighting` plugin bằng lệnh:
 {% highlight %}
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 {% endhighlight %}
-Nếu biến `$ZSH_CUSTOM` tồn tại và chứa giá trị thì sử dụng nó luôn, nếu không sử dụng `~/.oh-my-zsh/custom`
-Để active plugin, mở file `.\zshrc` và tìm đến dòng sau:
+Nếu biến `$ZSH_CUSTOM` tồn tại và chứa giá trị thì sử dụng nó luôn, nếu không sử dụng `~/.oh-my-zsh/custom`. Để active plugin, mở file `.\zshrc` và tìm đến dòng sau:
 {% highlight Shell %}
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
