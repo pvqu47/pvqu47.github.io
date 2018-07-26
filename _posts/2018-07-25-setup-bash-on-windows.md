@@ -89,7 +89,7 @@ shellArgs: ['--login', '-i', '/c wsl'],
 Bây giờ mỗi khi bạn mở Hyper termial, nó sẽ sử dụng `zsh` làm môi trường shell mặc định. Và chúng ta có Hyper termial trông như sau:
 
 ![Smithsonian Image]({{ site.url }}/img/Hyper-Terminal-Without-Theme.png)
-{: .pull-right}
+{: .pull-left}
 
 Theme và các plugins cho Hyper Terminal bạn có thể tìm thấy ở [đây](https://github.com/bnb/awesome-hyper). Mình sử dụng [hyper-material-theme](https://github.com/equinusocio/hyper-material-theme) và có được:
 ![Smithsonian Image]({{ site.url }}/img/Bash-Ubuntu-Win10.png)
