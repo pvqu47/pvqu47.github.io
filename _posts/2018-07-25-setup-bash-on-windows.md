@@ -70,19 +70,19 @@ Sử dụng lệnh `sudo nano ~/.bashrc` để mở file `.bashrc`.
 
 ## Cấu hình và chạy Hyper Terminal
 Sau khi cài đặt Hyper Terminal mở file `%USERPROFILE%/.hyper.js` (ví dụ của mình là trong thư mục `C:\Users\quatp\.hyper.js`) và thay thế dòng 
-{% highlight Command %}
+{% highlight Shell %}
 shell: '',
 {% endhighlight %}
 bằng
-{% highlight Command %}
+{% highlight Shell %}
 shellArgs: ['--login'],
 {% endhighlight %}
 và 
-{% highlight Command %}
+{% highlight Shell %}
 shell: 'C:\\Windows\\System32\\cmd.exe',
 {% endhighlight %}
 bằng 
-{% highlight Command %}
+{% highlight Shell %}
 shellArgs: ['--login', '-i', '/c wsl'],
 {% endhighlight %}
 
